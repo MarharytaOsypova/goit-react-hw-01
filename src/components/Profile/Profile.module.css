@@ -1,8 +1,8 @@
 .profile {
-width: 50%;
+width: 30%;
     margin: 20px auto;
     margin: 0 auto;
-    border: 1px solid #111111;
+    border: 1px solid #000000;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f9f9f9;
@@ -19,6 +19,9 @@ width: 50%;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
+    background-color: #11101038;
+    display: inline-block;
+    box-sizing: border-box;
     
 }
 
@@ -41,6 +44,7 @@ width: 50%;
     border: 1px solid #18161675;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 .item {
@@ -63,7 +67,8 @@ border-left: 1px solid #18161675;
 
 .label {
     font-size: 16px;
-    color: gray;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
 }
 
 .quantity {
